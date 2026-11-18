@@ -38,6 +38,16 @@ mongoimport --uri "<your Atlas connection string>" --db victorious_kb \
   --collection kb_articles --jsonArray --file mongo/kb_articles.json
 ```
 
+## Build evidence
+
+Output from a clean build on PostgreSQL 16.15 (scripts 01–04, then 05_verify.sql):
+
+| Screenshot | Shows |
+| --- | --- |
+| [01_tables.png](docs/screenshots/01_tables.png) | All 10 tables created |
+| [02_verify.png](docs/screenshots/02_verify.png) | Row counts, full price list, 0 orphan rows, junction table rows |
+| [03_unanswered_view.png](docs/screenshots/03_unanswered_view.png) | Reporting view of unanswered questions |
+
 ## Status
 
 - Loaded: categories, services, vehicle sizes, prices, job times, business hours,
