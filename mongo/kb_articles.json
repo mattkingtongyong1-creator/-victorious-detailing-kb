@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "6741a0000000000000000001" },
+    "type": "faq",
+    "title": "How long wax lasts",
+    "question": "How long does the wax last?",
+    "body": "TODO: Matthew writes this answer.",
+    "tags": ["wax", "aftercare"],
+    "service_ids": [5],
+    "updated_at": { "$date": "2026-11-14T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6741a0000000000000000002" },
+    "type": "faq",
+    "title": "Why a clay bar treatment",
+    "question": "Why does my car need a clay bar treatment?",
+    "body": "TODO: Matthew writes this answer.",
+    "tags": ["clay bar"],
+    "service_ids": [4],
+    "updated_at": { "$date": "2026-11-14T00:00:00Z" }
+  }
+]
